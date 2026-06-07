@@ -1,0 +1,94 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 500px;
+  max-width: 95%;
+  background: var(--bg-card, #1e293b);
+  border: 1px solid var(--border-color, #334155);
+  border-radius: 12px;
+  padding: 24px;
+  color: var(--text-primary, #fff);
+}
+
+.modal-title {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: var(--text-secondary, #94a3b8);
+  font-size: 14px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: var(--bg-secondary, #0f172a);
+  border: 1px solid var(--border-color, #334155);
+  color: var(--text-primary, #fff);
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.roles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--bg-secondary, #0f172a);
+  border: 1px solid var(--border-color, #334155);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.role-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.roles-empty {
+  color: #f59e0b;
+  font-size: 14px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color, #334155);
+}
+
+.btn-secondary {
+  background: #64748b;
+  color: white;
+  padding: 10px 16px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  padding: 10px 16px;
+}

@@ -23,6 +23,20 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.user
+*.suo
+*.nupkg
+*.snk
+*.svclog
+*.vsp
+*.vspx
+*.dbmdl
+*.jfm
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
@@ -55,3 +69,8 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+/frontend/node_modules/
+
+/backend/.vs

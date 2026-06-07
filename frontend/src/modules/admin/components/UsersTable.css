@@ -1,0 +1,80 @@
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th {
+  background-color: var(--bg-secondary, #0f172a);
+  border: 1px solid var(--border-color, #334155);
+  padding: 14px 12px;
+  text-align: left;
+  color: var(--text-secondary, #94a3b8);
+  font-weight: 600;
+}
+
+.users-table td {
+  border: 1px solid var(--border-color, #334155);
+  padding: 12px;
+}
+
+.users-table tbody tr {
+  transition: background-color .2s ease;
+}
+
+.users-table tbody tr:hover {
+  background-color: rgba(255,255,255,0.03);
+}
+
+.user-inactive {
+  opacity: .6;
+}
+
+.user-login {
+  font-weight: 600;
+}
+
+.user-empty {
+  color: var(--text-secondary, #94a3b8);
+  font-style: italic;
+}
+
+.roles-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.role-badge {
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--bg-secondary, #0f172a);
+  border: 1px solid var(--border-color, #334155);
+  font-size: 12px;
+}
+
+.status-active {
+  color: #10b981;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.table-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-edit {
+  background: #eab308;
+  color: #111827;
+  padding: 8px 12px;
+}
+
+.btn-danger {
+  background: #dc2626;
+  color: white;
+  padding: 8px 12px;
+}
